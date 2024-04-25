@@ -22,7 +22,7 @@ const MobileNavbar = () => {
       </SheetTrigger>
       <SheetContent >
       
-        <ul className="cursor-pointer space-y-2 mb-6">
+        <ul className="flex flex-col cursor-pointer space-y-2 mb-6">
             {navlist.map((item)=>(
             <a href={"#"+item} htmlFor="name" className="text-center" key={item}>
               {item}
