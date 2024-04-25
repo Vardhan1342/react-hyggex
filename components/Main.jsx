@@ -15,7 +15,7 @@ const Main = () => {
         setActiveIndex(index);
     };
   return (
-    <main className='flex flex-col space-y-10 mt-10'>
+    <main id="Home" className='flex flex-col space-y-10 mt-10'>
       <nav className='flex items-center  gap-x-1 text-gray-600 text-sm font-medium'>
          <GoHome  size={20}/>
          <h1>&gt;Flashcard</h1>

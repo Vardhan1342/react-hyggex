@@ -24,9 +24,9 @@ const MobileNavbar = () => {
       
         <ul className="cursor-pointer space-y-2 mb-6">
             {navlist.map((item)=>(
-            <li htmlFor="name" className="text-center" key={item}>
+            <a href={"#"+item} htmlFor="name" className="text-center" key={item}>
               {item}
-            </li>
+            </a>
             
         ))}
         </ul>
